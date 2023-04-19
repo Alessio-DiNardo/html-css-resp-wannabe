@@ -127,3 +127,46 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
+
+
+ /* Da 0 a 768px */
+
+@media screen and (max-width: 768px){
+    div.container{
+        width: 780px;
+        padding: 0 50px;
+    }
+    header.site-header{
+        width: 780px;
+        padding: 0 50px;
+    }
+}
+
+/* al più 480px */
+
+@media screen and (max-width: 480px){
+    div.container{
+        width: 680px;
+        padding: 0 0px;
+    }
+    header.site-header{
+        width: 680px;
+        padding: 0 0px;
+    }
+    div.row{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0 2rem;
+    }
+    img{
+        width: 700px;
+        
+    }
+    div.card{
+        padding-bottom: 5rem;
+    }
+}
+
+
