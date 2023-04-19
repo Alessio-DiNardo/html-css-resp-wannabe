@@ -158,7 +158,10 @@ img {
         flex-direction: column;
         padding: 0 2rem;
     }
-    div.col{
+    .lessons .col{
+        width: 100%;
+    }
+    .steps .col{
         width: 100%;
     }
     div.card{
@@ -172,7 +175,12 @@ img {
     img{
         width: 700px;
     }
+    .why-us .col-left {
+        width: 100%;
+    }
     
+    .why-us .col-right {
+        width: 100%;
 }
 
 
