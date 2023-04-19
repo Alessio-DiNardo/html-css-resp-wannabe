@@ -145,28 +145,34 @@ img {
 /* al più 480px */
 
 @media screen and (max-width: 480px){
-    div.container{
-        width: 680px;
-        padding: 0 0px;
-    }
     header.site-header{
-        width: 680px;
+        width: 480px;
+        padding: 0;
+    }
+    div.container{
+        width: 480px;
         padding: 0 0px;
     }
     div.row{
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
         padding: 0 2rem;
     }
-    img{
-        width: 700px;
-        
+    div.col{
+        width: 100%;
+    }
+    div.card{
+        padding-bottom: 3rem;
+        width: 75%;
+        margin: 0 auto;
     }
     div.card{
         padding-bottom: 5rem;
     }
+    img{
+        width: 700px;
+    }
+    
 }
 
 
