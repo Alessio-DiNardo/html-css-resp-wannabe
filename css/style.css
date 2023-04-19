@@ -133,7 +133,7 @@ img {
 
 @media screen and (max-width: 768px){
     div.container{
-        width: 768px;
+        width: 100%;
         padding: 0 50px;
     }
     header.site-header{
@@ -150,7 +150,7 @@ img {
         padding: 0;
     }
     div.container{
-        width: 480px;
+        width: 100%;
         padding: 0 0px;
     }
     div.row{
