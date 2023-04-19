@@ -133,11 +133,11 @@ img {
 
 @media screen and (max-width: 768px){
     div.container{
-        width: 780px;
+        width: 768px;
         padding: 0 50px;
     }
     header.site-header{
-        width: 780px;
+        width: 768px;
         padding: 0 50px;
     }
 }
@@ -178,7 +178,6 @@ img {
     .why-us .col-left {
         width: 100%;
     }
-    
     .why-us .col-right {
         width: 100%;
 }
